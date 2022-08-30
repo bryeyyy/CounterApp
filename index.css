@@ -1,0 +1,44 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    border: 0;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(347deg, #0cf03c, #0cf0d4, #d7e37c);
+        background-size: 400% 400%;
+    
+        -webkit-animation: gradientbg 15s ease infinite;
+        -moz-animation: gradientbg 15s ease infinite;
+        -o-animation: gradientbg 15s ease infinite;
+        animation: gradientbg 15s ease infinite;
+}
+@-webkit-keyframes gradientbg {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes gradientbg {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-o-keyframes gradientbg {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes gradientbg {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}    
+.app{
+    text-align: center;
+}
+#savelog{
+    list-style: none;
+}    
